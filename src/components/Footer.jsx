@@ -24,19 +24,19 @@ export default function Footer() {
 
         <div className="flex flex-col items-start md:items-end gap-3">
           <a
-            href="mailto:yewen@example.com"
+            href="mailto:yzhou30@uw.edu"
             className="text-sm hover:text-warm-500 transition-colors line-accent"
           >
-            yewen@example.com
+            yzhou30@uw.edu
           </a>
           <div className="flex gap-6 mt-2">
             <a href="#" className="text-xs uppercase tracking-[0.15em] text-slate hover:text-warm-500 transition-colors">
               LinkedIn
             </a>
-            <a href="#" className="text-xs uppercase tracking-[0.15em] text-slate hover:text-warm-500 transition-colors">
+            <a href="https://github.com/yzhou30-ux" className="text-xs uppercase tracking-[0.15em] text-slate hover:text-warm-500 transition-colors">
               GitHub
             </a>
-            <a href="#" className="text-xs uppercase tracking-[0.15em] text-slate hover:text-warm-500 transition-colors">
+            <a href="https://www.instagram.com/a_lianyue?igsh=MTlhMXE0b2gyNGdtOA%3D%3D&utm_source=qr" className="text-xs uppercase tracking-[0.15em] text-slate hover:text-warm-500 transition-colors">
               Instagram
             </a>
           </div>

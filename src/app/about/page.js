@@ -7,22 +7,28 @@ import Footer from '@/components/Footer';
 
 const experience = [
   {
-    period: '2024 – Present',
+    period: '2025 - Present',
     role: 'Graduate Student',
-    org: 'Design & Technology',
-    note: 'Exploring HCI, creative coding, and interactive systems',
+    org: 'University of Washington, MSTI program',
+    note: 'connected device, creative coding',
   },
   {
-    period: '2021 – 2023',
-    role: 'Industrial Designer & Illustrator',
-    org: 'Freelance',
-    note: 'Product design, packaging illustration, brand identity',
+    period: '2025',
+    role: 'UX Design Intern',
+    org: 'Baby monitor app & education service platform',
+    note: 'User research, interaction flows, interface design',
   },
   {
-    period: '2018 – 2022',
-    role: 'BFA Industrial Design',
-    org: 'Undergraduate',
-    note: 'Product design, exhibition design, digital illustration',
+    period: '2021 - Present',
+    role: 'Designer & Illustrator',
+    org: ' Internships with several companies + Freelance',
+    note: 'Product design, exhibition, packaging, illustration, branding...',
+  },
+  {
+    period: '2019 - 2023',
+    role: 'BID Industrial Design',
+    org: 'Pratt Institute',
+    note: 'Product design, storyboarding, art history...',
   },
 ];
 
@@ -30,13 +36,11 @@ const skills = [
   'Industrial Design',
   'UX / Interaction Design',
   'Digital Illustration',
-  'Packaging Design',
-  'Creative Coding',
-  'Rhino / SolidWorks',
+  'Creative Coding + React / Next.js',
+  'Rhino / SolidWorks / Fusion360 + KeyShot',
   'Figma / Adobe Suite',
-  'React / Next.js',
-  'Blender / KeyShot',
-  'Procreate / Photoshop',
+  'Procreate / Clip Studio Paint',
+  '3D Printing / Laser Cutting / Woodworking ',
 ];
 
 export default function AboutPage() {
@@ -59,20 +63,22 @@ export default function AboutPage() {
 
             <div className="space-y-5 text-sm text-charcoal leading-[1.8] max-w-2xl">
               <p>
-                I&apos;m Yewen — a designer and illustrator working across
-                industrial design, digital art, and interactive media. I believe
-                that good design lives where craft meets curiosity.
+                Hi, I&apos;m Yewen Zhou 👋 a designer and illustrator working
+                across industrial design, digital art, and interactive media.
+                I believe that good design lives where craft meets curiosity.
               </p>
               <p>
-                My background in industrial design trained me to think in
-                materials, ergonomics, and user behavior. My illustration
-                practice keeps me rooted in visual storytelling — from ancient
-                Chinese fantasy landscapes to playful packaging concepts.
+                Studying industrial design trained me to think with my hands 
+                in materials, form, and prototypes. Along the way, my
+                exploration in visual storytelling went far beyond illustration
+                and photography.
               </p>
               <p>
-                Currently, I&apos;m exploring how creative coding and generative
-                systems can extend the designer&apos;s toolkit, bridging the
-                physical and digital worlds.
+                I actually grew up around STEM, and now I&apos;m coming back to
+                it. At UW&apos;s MSTI program, I&apos;m exploring how software
+                and hardware development can extend what a designer&apos;s
+                toolkit looks like, bridging the physical and digital in ways
+                I&apos;ve always been curious about.
               </p>
             </div>
 
@@ -133,10 +139,10 @@ export default function AboutPage() {
                 research collaborations.
               </p>
               <a
-                href="mailto:yewen@example.com"
+                href="mailto:yzhou30@uw.edu"
                 className="inline-flex items-center gap-2 text-sm text-warm-700 hover:text-warm-800 transition-colors"
               >
-                yewen@example.com
+                yzhou30@uw.edu
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
