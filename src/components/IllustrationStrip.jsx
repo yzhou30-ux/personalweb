@@ -8,8 +8,9 @@ const illustrations = [
   { src: '/images/illustrations/nanhuai-night.png', title: '南淮夜', aspect: 'aspect-[9/16]' },
   { src: '/images/illustrations/suizhengxuan.png', title: '岁正悬', aspect: 'aspect-[9/16]' },
   { src: '/images/illustrations/luohuaxi.png', title: '落花溪', aspect: 'aspect-[9/16]' },
-  { src: '/images/illustrations/night-sky.jpg', title: 'Night Sky', aspect: 'aspect-[16/9]' },
+  { src: '/images/illustrations/silvernight.jpg', title: 'Silver Night', aspect: 'aspect-[2/3]' },
   { src: '/images/gallery/comic-pages.jpg', title: 'Storyboard', aspect: 'aspect-[4/3]' },
+  { src: '/images/illustrations/night-sky.jpg', title: 'Night Sky', aspect: 'aspect-[16/9]' },
   { src: '/images/gallery/orange-sculpture.jpeg', title: 'Orange Study', aspect: 'aspect-[4/3]' },
 ];
 

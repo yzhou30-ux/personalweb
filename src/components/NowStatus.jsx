@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 // ─── Swap this path to replace the background image manually ───
-const nowBgImage = "url('/images/now/May4.jpg')";;
+const nowBgImage = '/images/now/May4.jpg';
 
 const logEntries = [
   { date: 'May 2026', text: 'Frontend design, practice with AI' },

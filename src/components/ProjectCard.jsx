@@ -41,10 +41,10 @@ export default function ProjectCard({ project, index }) {
           <h3 className="text-display text-[32px] md:text-[44px] leading-[1.1] tracking-wide">
             {project.title}
           </h3>
-          <p className="text-[#4a4a4a] text-[14px] leading-[1.75] max-w-md">
+          <p className={`text-[#4a4a4a] text-[14px] leading-[1.75] max-w-md ${isEven ? '' : 'md:self-end'}`}>
             {project.description}
           </p>
-          <div className="flex gap-2 flex-wrap mt-2">
+          <div className={`flex gap-2 flex-wrap mt-2 ${isEven ? '' : 'md:justify-end'}`}>
             {project.tags?.map((tag) => (
               <span
                 key={tag}
@@ -54,7 +54,7 @@ export default function ProjectCard({ project, index }) {
               </span>
             ))}
           </div>
-          <span className="inline-flex items-center gap-2 text-sm text-warm-700 mt-4 group-hover:gap-3 transition-all">
+          <span className={`inline-flex items-center gap-2 text-sm text-warm-700 mt-4 group-hover:gap-3 transition-all ${isEven ? '' : 'md:self-end'}`}>
             View project
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="transition-transform group-hover:translate-x-1">
               <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

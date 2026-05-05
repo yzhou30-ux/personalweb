@@ -17,7 +17,7 @@ const projects = [
       'An educational kit designed to engage middle school students in coding and STEM concepts through multi-media storytelling, tabletop gameplay, and Micro:Bit coding. Collaborated with NYC First to redesign their STEM education product.',
     image: '/images/projects/elfinbox-1.png',
     tags: ['UX Research', 'Product Design', 'Education'],
-    href: '#',
+    href: '/projects/elfinbox',
   },
   {
     title: 'PYLE — Pill Dispenser',
@@ -26,7 +26,7 @@ const projects = [
       'A pill container and dispenser designed for the Snoozle brand, helping users with ADHD build routines. Features a transparent body for visual cues and a portable container that doubles as the cap.',
     image: '/images/projects/old-site.png',
     tags: ['Product', '3D Printing', 'Brand'],
-    href: '#',
+    href: '/projects/pyle',
   },
   {
     title: 'Pizza Hut × Next Design',
